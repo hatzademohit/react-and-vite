@@ -1,3 +1,4 @@
+import BgChanger from './components/bgChanger'
 import Card from './components/Card'
 import Counter from './components/Counter'
 
@@ -8,7 +9,9 @@ function App() {
       <Card heading='Second Card' />
       <Card heading='Third Card' buttontext='See more' /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+
+      <BgChanger />
     </div>
   )
 }

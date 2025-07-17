@@ -1,6 +1,7 @@
 import BgChanger from './components/bgChanger'
 import Card from './components/Card'
 import Counter from './components/Counter'
+import PasswordGenerator from './components/PasswordGenerator'
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
 
       {/* <Counter /> */}
 
-      <BgChanger />
+      {/* <BgChanger /> */}
+
+      <PasswordGenerator />
     </div>
   )
 }

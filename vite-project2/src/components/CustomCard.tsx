@@ -1,11 +1,11 @@
 import React from "react";
 
-interface cardProps{
+interface CustomCardProps{
     heading?: string;
     buttontext?: string;
 }
 
-const Card:React.FC<cardProps> = ({ heading='Card Heading', buttontext='Read More' }) => {
+const CustomCard:React.FC<CustomCardProps> = ({ heading='Card Heading', buttontext='Read More' }) => {
     return(
         <div className="max-w-xs rounded-md shadow-md bg-black text-gray-100">
             <img
@@ -32,4 +32,4 @@ const Card:React.FC<cardProps> = ({ heading='Card Heading', buttontext='Read Mor
     )
 }
 
-export default Card;
+export default CustomCard;

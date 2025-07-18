@@ -1,20 +1,21 @@
-import BgChanger from './components/bgChanger'
-import Card from './components/Card'
-import Counter from './components/Counter'
-import PasswordGenerator from './components/PasswordGenerator'
+import { CustomCard, BgChanger, Counter, PasswordGenerator, CurrencyCalculator } from './components'
 
 function App() {
   return (
-    <div className='p-4 flex gap-2'>
-      {/* <Card heading='First Card' buttontext='View More' />
-      <Card heading='Second Card' />
-      <Card heading='Third Card' buttontext='See more' /> */}
+    <div className='p-4'>
+      {/* <div className="flex gap-2">
+        <CustomCard heading='First Card' buttontext='View More' />
+        <CustomCard heading='Second Card' />
+        <CustomCard heading='Third Card' buttontext='See more' />
+      </div> */}
 
       {/* <Counter /> */}
 
       {/* <BgChanger /> */}
 
-      <PasswordGenerator />
+      {/* <PasswordGenerator /> */}
+
+      <CurrencyCalculator />
     </div>
   )
 }

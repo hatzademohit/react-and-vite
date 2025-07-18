@@ -30,9 +30,9 @@ function PasswordGenerator() {
     }, [length, numberAllowed, charAllowed])
 
   return (
-    <div className='py-2 px-4 bg-purple-400 rounded-md m-auto'>
+    <div className='py-2 px-4 bg-purple-400 rounded-md m-auto max-w-md'>
       <h3 className='text-white text-2xl text-center'>Password Generator</h3>
-      <div className='flex my-2 w-100'>
+      <div className='flex my-2 w-full justify-center align-middle'>
         <input 
             type='text'
             className='px-2 py-2 bg-white text-blue-950 w-full max-w-2xl rounded-tl-sm rounded-bl-sm outline-0'

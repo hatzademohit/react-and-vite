@@ -40,7 +40,7 @@ function PasswordGenerator() {
             value={password}
             ref={passwordRef}
         />
-        <button onClick={copyClipboard} className='bg-amber-400 px-2 rounded-tr-sm rounded-br-sm cursor-pointer text-white'>Click</button>
+        <button onClick={copyClipboard} className='bg-amber-400 px-2 rounded-tr-sm rounded-br-sm cursor-pointer text-white'>Copy</button>
       </div>
       <div className='flex gap-1'>
         <input 

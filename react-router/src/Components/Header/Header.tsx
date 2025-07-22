@@ -5,7 +5,8 @@ export default function Header() {
         { name: 'Home', path: '' },
         { name: 'Contact', path: 'contact' },
         { name: 'About', path: 'about' },
-        { name: 'User', path: 'user' },
+        { name: 'User', path: 'user/12' },
+        { name: 'Github', path: 'github' },
     ]
 
     return (
